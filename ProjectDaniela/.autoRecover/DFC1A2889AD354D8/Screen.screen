@@ -95,7 +95,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
                             <Add.Item>
-                                <Button Text="Create my chatt" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="af67a2c5-29cd-4ea4-82f2-93fe038aaece" Panel.Bounds="523,453,152{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Create my chat" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="af67a2c5-29cd-4ea4-82f2-93fe038aaece" Panel.Bounds="523,453,152{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
