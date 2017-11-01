@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="not-supported-browser"><![endif]-->
+<!--[if IE 9]><html class="ie9"> <![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+    <head>
+        <base href='/' />
+        <script type='text/javascript'>
+            var loc = window.location.toString().replace(window.location.hash, '');
+            document.getElementsByTagName('base')[0].href = loc.substring(0, loc.lastIndexOf('/') + 1) + 'player/';
+        </script>
+        <meta http-equiv='x-ua-compatible' content='IE=edge' />
+
+        <meta charset="UTF-8"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width, minimal-ui"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui" media="(device-height: 568px)"/>
+        <meta name="google" content="notranslate" />
+        <link rel="apple-touch-icon-precomposed" href="css/images/apple-touch-indigo-icon.jpg"/>
+        <link rel="stylesheet" type="text/css" href="css/player.css" />
+        <script  type="text/javascript" src="lib/require.js"></script>
+    <script data-uri="../project.share" type="application/xml"><?Infragistics.Models format="xaml" version="2"?><SharedProject xmlns="http://prototypes.infragistics.com/shares/" Name="Chat" StartScreen="/Screen2.screen" Version="Dragon.ReleaseV9_20171019.4 - 9.2.1000.51" MajorVersion="9"><SharedProject.Options><ShareOptions ShowAnnotations="True" Comments="Open" /></SharedProject.Options><SharedProject.Toc><Toc><Toc.Root><TocEntry Label="Chat" Type="project"><TocEntry.Target><TocEntryTarget Project="project.share" /></TocEntry.Target><TocEntry.Items><TocEntry Label="Screen2" Type="screen"><TocEntry.Target><TocEntryTarget Screen="/Screen2.screen" /></TocEntry.Target><TocEntry.Items><TocEntry Label="Start" Type="state"><TocEntry.Target><TocEntryTarget State="e088a255-90d6-45d1-b892-d6e38b39b33b" /></TocEntry.Target></TocEntry></TocEntry.Items></TocEntry></TocEntry.Items></TocEntry></Toc.Root></Toc></SharedProject.Toc><SharedProject.Resources><SharedResource Reference="/Screen2.screen" Type="Screen" /></SharedProject.Resources></SharedProject></script>
+<script data-uri="../screen2.screen" type="application/xml"><?Infragistics.Models format="xaml" version="29"?><Page xmlns="http://prototypes.infragistics.com/" xmlns:d="http://prototypes.infragistics.com/views/design" Id="3ef00d4e-6927-48b8-b82c-345c89503a5a" d:Design.ShowGuides="False"><Page.Content><Content Width="1024" Height="768" Id="53787eda-58c7-4cc3-95a3-a697d64b55a7"><Content.Layers><Layer Id="a4855aa3-1495-4598-a72d-9ded073e2855" Panel.Layout="Stretch" /><AnnotationsLayer Id="8d0365a9-c238-40a0-8347-5d245f6a23c8" Panel.Layout="Stretch" /></Content.Layers><Content.Viewbox><Viewbox Size="1024,768" Id="4642b061-05dc-40dc-bbbe-dc03a3b9b93b" /></Content.Viewbox><Content.GuidesInfo><GuidesInfo Id="9d1273cb-2572-437e-bbdf-202d20153acb" /></Content.GuidesInfo></Content></Page.Content><Page.Device><DeviceInfo Id="Browser" Orientation="None" /></Page.Device><Page.Scenes><Scene Title="Start" Created="10/31/2017 17:17:58" Id="e088a255-90d6-45d1-b892-d6e38b39b33b"><Scene.KeyFrames><KeyFrame Id="9eaa76fc-33d2-4fb7-b82b-e2e6355b249f"><KeyFrame.Operations><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><BootstrapBox Id="22164663-3f77-4ca1-aa91-2ae4196b8f02" Panel.Layout="Stretch"><BootstrapBox.Content><BootstrapContainer Id="a1cec489-df02-474d-bc74-2c91c3153e7f"><BootstrapContainer.Children><Row Id="c7dad000-69d0-4c4b-bf61-bce0a3c216f6"><Row.Children><Column Id="2948f28a-0685-4296-aa92-3d048037bd24" BootstrapContainer.SpanSm="3" /><Column Id="be2793f1-2d43-482a-98e1-90f8dca5dbb0" BootstrapContainer.SpanSm="9" /></Row.Children></Row></BootstrapContainer.Children></BootstrapContainer></BootstrapBox.Content></BootstrapBox></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Image Id="bed0660c-b3e2-4b46-b065-c87aa9f4c626" Panel.Bounds="30,9,5*{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Id="01e495a6-b508-41b4-963d-fa66731bb3be" Panel.Bounds="268,136,552{5,2147483647},369{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Rectangle Id="01cff05c-0d20-461d-9833-391aa417cf6f" Panel.Bounds="27,136,217{5,2147483647},369{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="5ac6067b-46f5-4f96-af47-2a577f1a745f" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="423,204,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Id="e48c3de3-6535-442e-94a8-f024285b3b11" Panel.Bounds="851,136,168{5,2147483647},369{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 1" Id="469f6f07-500c-480b-b950-fee64daa4112" Panel.Bounds="288,204,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Active rooms&lt;/Run&gt;" Id="60c32fde-d10c-4eb2-8b2d-041512188b52" Panel.Bounds="451,153,150{5,2147483647},33{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 3" Id="d0cc4ac2-b49c-4967-9732-91203c60cc8c" Panel.Bounds="288,352,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 2" Id="e747b6ce-99db-4ae7-9cad-68e102297269" Panel.Bounds="288,274,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 4" Id="d1d7f825-4802-47e3-89cd-40c2908a32fb" Panel.Bounds="484,204,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 5" Id="3d87f996-fc43-4b35-82f9-5a802c53eebb" Panel.Bounds="484,274,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Private room" Id="8a292257-4865-4cd0-9254-5053bf7421a1" Panel.Bounds="652,204,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Room 6" Id="646e39da-b2d5-4277-9e05-51cd0f135e55" Panel.Bounds="484,352,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Private Room " Id="3ec5cc08-0988-4fad-b6ef-266256219229" Panel.Bounds="652,276,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Title RichText="Title or Heading" Id="93a9f83d-ff30-4bf6-86ac-f3c13321b702" Panel.Bounds="484,24,5*{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-user" Id="82d71575-340e-4af6-ba31-032af2dd048e" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="990,38,24{5,2147483647},24{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-home" Id="01809303-9444-49ba-b9f0-41b827d0eb48" Panel.Bounds="990,10,24{5,2147483647},24{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="User 1258" Id="9f5e8d2d-f03d-4cf3-8a37-e6374a11dcc6" Panel.Bounds="915,39,72{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="e34ad44c-ff83-4c99-8f4b-928aeb15e67a" Panel.Bounds="288,232,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="d774a544-d762-43db-bbed-cb7798de76c5" Panel.Bounds="288,305,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="df6f4dbe-1cb5-41f6-8312-d6104267598a" Panel.Bounds="288,383,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="b6c742ab-dace-47bf-afeb-a3d43a3888b1" Panel.Bounds="484,232,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="6bacc369-635c-48c5-91bb-7a6b8e5398c3" Panel.Bounds="484,305,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Active users - 6" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="35ab3b0f-11c5-4f79-bdf7-092746d66706" Panel.Bounds="484,383,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Only for registered users" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="e53b0577-0511-495b-ad50-f979bcee5b27" Panel.Bounds="652,232,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Password " FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="a7fd9f52-f104-421a-b528-d0f7bd7f39db" Panel.Bounds="652,305,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextBox Text="Private room" Id="07bca8a4-1c8d-43f1-b834-660452acea58" Panel.Bounds="652,352,120{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><TextArea Text="Only for registered users" FontSize="10" FontFamily="Open Sans" FontStyle="Italic" Id="9a953512-05e6-4516-80d4-cc81425748f4" Panel.Bounds="652,380,120{5,2147483647},18{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="dc507f4c-a545-4301-adc9-78f3f374d9e5" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="420,277,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="5f1595a9-8358-4b0f-999b-cfec32851b3d" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="423,352,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="3bf79d53-bec1-4458-9ebb-8a0ab91642ba" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="616,204,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="7d2d1ce7-e3aa-41da-bfcc-c5a9be1a02d5" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="616,277,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="a4855aa3-1495-4598-a72d-9ded073e2855"><Add.Item><Icon CatalogId="fa-sign-in" Id="571bd4ff-ed50-4730-b844-7975445b7806" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="616,353,23{5,2147483647},23{5,2147483647}" /></Add.Item></Add><Set Property="Content.AutoHeight" Value="True" Target="53787eda-58c7-4cc3-95a3-a697d64b55a7" /></KeyFrame.Operations></KeyFrame></Scene.KeyFrames></Scene></Page.Scenes></Page></script>
+
+        <script type='text/javascript'>
+            function load() {
+                require.config({ baseUrl: 'js/', waitSeconds: 60 });
+                require(['require', 'player_lib'], function (require) {
+                    require(['config'], function (config) {
+                        config.EnableInitialScreen = false;
+                        config.EnableAssetsDownload = false;
+                        config.IsExport = true;
+
+                        config.ShowNotes = true;
+                        config.ShowHighlight = false;
+                        config.EnableExportPrototype = false;                                
+                        config.Locale = 'en';
+                            
+                        config.initialize();
+                        require(['shell', 'devices', 'utils', 'css!../css/player_lib'], function (shell, devices, utils) {
+                            config.ProjectPath = '../project.share';
+                            config.BuildScreenUri = function(screen, project) { return '../index.html#f=' + utils.path.stripExtension(screen); };
+                            new shell.PlayerShell().run();                                    
+                         });
+                     });
+                 });
+             }
+        </script>
+</head>
+    <body onload="load()">
+        <div id="toolbar_toggle" style="display:none">
+            <div></div>
+        </div>
+        <div id="toolbar_layer" style="display:none">
+            <div id="toolbar_toggle_mobile">
+                <div></div>
+            </div>
+            <div id="toolbar_content">                
+            </div>
+        </div>
+        <div id="content_layer" class="ui-helper-loading">
+            <div id="prototype"></div>
+            <div class="ruler"></div>
+            <div id="host_popup_layer"></div>
+            <div id="prototype_loading">                
+                <div class="loading_indicator"></div>
+            </div>
+        </div>
+        <div id="shell_layer">            
+        </div>
+
+        <div class="not-supported-browser-message" style="display:none">
+            <p><strong>Oops!</strong><span> Looks like your browser is not supported, please update to IE9+. </span></p>
+            <p>If you are using a IE9+ browser, maybe it's in compatibility mode? See here how to <a href="http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view" target="_blank">disable compatibility mode</a> and reload.</p>
+        </div>
+    </body>
+</html>
