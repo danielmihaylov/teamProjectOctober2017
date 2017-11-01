@@ -1,0 +1,261 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="84b5a25d-3b74-47a7-9caa-f650d3329d62">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="ed331dda-937f-4672-9ef1-a79b32c4d7ba">
+            <Content.Layers>
+                <Layer Id="2a73f63c-47fe-4258-a76a-31acfb34f333" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="4ce17d0d-6083-4faf-870e-2e17fc79909c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="0d3790f9-3e55-4d89-9af9-208de9a185f8" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1bd2a552-c960-463c-b08a-0cdb7d9a5dcc" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 14:00:50" Id="f758a6d7-f09a-420d-a8b4-f66ab0f62fe9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ecc93386-1970-4870-9f74-213753d558cb">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Image Id="e711821e-c92d-4e33-87cc-5531af1cfd53" Panel.Bounds="13,18,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Title RichText="Title or Heading" Id="7d6cc281-04aa-4b4a-9d66-e397292fb71b" Panel.Bounds="386,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="8db96976-f41c-4cea-b706-da82a326de0e" Panel.Bounds="889,64,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-home" Id="b75c5623-69f4-438d-b5d7-79f106b663bc" Panel.Bounds="889,20,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextArea Id="e9ea97fa-cc89-4553-b056-62d32b16d0cc" Panel.Bounds="820,162,191{5,2147483647},509{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextArea Text="&#xA;&#xA;   " FontSize="18" Id="743a2fea-5840-44fa-bb3d-bf2eaea8b18d" Panel.Bounds="242,162,540{5,2147483647},354{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Id="581fd84d-9568-41f5-8eb2-8e270b5483cb" Panel.Bounds="415,235,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Id="9c34a434-3935-4c7f-b8f4-35aa9e873ada" Panel.Bounds="415,281,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Id="c0ea2f22-66e1-4451-a0b1-a4fc308ab84a" Panel.Bounds="415,328,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Id="dfd82167-8ca7-4ab3-8a37-780be4981700" Panel.Bounds="415,367,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; FontWeight=&quot;Bold&quot; &gt;Your name:&lt;/Run&gt;" FontSize="16" FontFamily="Open Sans" Id="2fdef3a9-7288-4059-a656-5ba8c21cef89" Panel.Bounds="292,232,106{5,2147483647},22*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontWeight=&quot;Bold&quot; &gt;Title/subject&lt;/Run&gt;:" FontSize="18" FontFamily="Open Sans" Id="c19baa1d-23aa-44f2-a86a-75b8736138c0" Panel.Bounds="295,280,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; FontWeight=&quot;Bold&quot; &gt;Invite email:&lt;/Run&gt;" FontFamily="Open Sans" Id="fdd912ef-9963-4e29-bcee-85a9dba8175d" Panel.Bounds="295,328,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="Message:" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Id="ed11e200-9961-4270-bd2f-f8a45fa92710" Panel.Bounds="295,368,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Button Text="Create my chatt" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="af67a2c5-29cd-4ea4-82f2-93fe038aaece" Panel.Bounds="523,453,152{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; FontWeight=&quot;Bold&quot; &gt;Create Private Chat Room&lt;/Run&gt;" FontFamily="Open Sans" Id="b479c268-0c2a-40b1-8a3c-e3d2e154b984" Panel.Bounds="292,174,310*{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="Active Rooms" FontSize="16" FontFamily="Open Sans" Id="b4c9c463-1e83-425c-8c62-7119618b351f" Panel.Bounds="841,174,112{5,2147483647},22*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 1" FontFamily="Open Sans" Id="6f803c0e-8e56-4ed3-83c4-6a11123bf9ce" Panel.Bounds="841,217,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 2" FontFamily="Open Sans" Id="837aa11c-5258-4ae4-885b-fc524732c651" Panel.Bounds="841,256,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 3" FontFamily="Open Sans" Id="79155382-5583-4479-9f5c-4848f3f0ceda" Panel.Bounds="841,295,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 4" FontFamily="Open Sans" Id="5ad030ff-599b-4c3e-bd61-cc0026898acc" Panel.Bounds="841,337,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 5" FontFamily="Open Sans" Id="7b7f79fc-f842-42cb-8101-6dedf655e9b3" Panel.Bounds="841,379,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Room 6" FontFamily="Open Sans" Id="47a3cca6-d398-4433-875c-2263ee9bbaf9" Panel.Bounds="841,419,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Private room" FontFamily="Open Sans" Id="601f77ea-1e1c-4aa5-8820-3bfc19776c30" Panel.Bounds="841,464,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Private room" FontFamily="Open Sans" Id="66aecda0-4632-4b2d-986d-bff20faf4be5" Panel.Bounds="841,509,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="44f16e24-a92d-4d04-8048-433bd7bc638b" Panel.Bounds="970,213,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="aeef5d03-9d8d-4517-aefd-e59316c1f044" Panel.Bounds="970,252,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="9fc8b809-8be2-4dd7-8f43-6c0b2791e854" Panel.Bounds="970,291,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="b435fd37-3d38-4bc8-8d70-0146a9ba3fb5" Panel.Bounds="970,333,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="28531986-7f99-4f3a-bdd6-63f2ff66c92b" Panel.Bounds="970,375,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon CatalogId="fa-link" Id="39fd528a-03f5-42cb-a0d1-280c20cc32bc" Panel.Bounds="970,415,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="750c5802-3a7d-4881-b796-ed6ce7bc9a1c" Panel.Bounds="13,162,180{5,2147483647},509{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="My rooms " FontSize="16" FontFamily="Open Sans" Id="b307a19c-606d-4994-85bb-8f8b857be5ea" Panel.Bounds="30,174,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Label RichText="Password:" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Id="2055c4d6-3b4b-4d2a-8af1-59dd06f8dea5" Panel.Bounds="295,408,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Id="f88b8f79-1fd0-40d5-818c-463012bbc11b" Panel.Bounds="415,407,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="Java Room" FontFamily="Open Sans" Id="25395091-5ece-48ac-9736-3a1c8f43149e" Panel.Bounds="30,217,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="C# Room" FontFamily="Open Sans" Id="333fd772-f9f7-4026-80a5-0f1585462ade" Panel.Bounds="30,262,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="PHP Room" FontFamily="Open Sans" Id="09fe3e05-fbf6-475b-883d-3c75f6296825" Panel.Bounds="30,307,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <TextBox Text="JavaScript  Room" FontFamily="Open Sans" Id="3dc6802d-3b80-4fe9-bb01-5a4890425164" Panel.Bounds="30,352,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Button Text="Open" FontFamily="Open Sans" Id="b1e62e34-71f0-42ac-9662-f84c8ba6b6ad" Panel.Bounds="95,611,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <OptionGroup Id="eca4c353-63ea-40e8-8b43-c50e65d76a64" Panel.Bounds="187,112,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <CheckBox FontFamily="Open Sans" Id="4e66add8-b29c-4fa7-aca6-c2399a7dbece" Panel.Bounds="165,213,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <CheckBox FontFamily="Open Sans" Id="eaeb8cda-9495-4928-adec-fb630e2241ea" Panel.Bounds="165,259,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <CheckBox FontFamily="Open Sans" Id="11ccb82e-0607-4265-a742-047a3619322e" Panel.Bounds="165,304,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <CheckBox FontFamily="Open Sans" Id="e6c995db-1201-4695-8924-3fb42db93e4d" Panel.Bounds="165,349,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Button Text="Join" FontFamily="Open Sans" Id="da9ce5da-7ad3-4299-8ed5-f31a34613e74" Panel.Bounds="841,611,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

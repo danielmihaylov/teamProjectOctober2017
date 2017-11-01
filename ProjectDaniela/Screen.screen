@@ -1,0 +1,46 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="84b5a25d-3b74-47a7-9caa-f650d3329d62">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="ed331dda-937f-4672-9ef1-a79b32c4d7ba">
+            <Content.Layers>
+                <Layer Id="2a73f63c-47fe-4258-a76a-31acfb34f333" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="4ce17d0d-6083-4faf-870e-2e17fc79909c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="0d3790f9-3e55-4d89-9af9-208de9a185f8" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1bd2a552-c960-463c-b08a-0cdb7d9a5dcc" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 14:00:50" Id="f758a6d7-f09a-420d-a8b4-f66ab0f62fe9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ecc93386-1970-4870-9f74-213753d558cb">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Image Id="e711821e-c92d-4e33-87cc-5531af1cfd53" Panel.Bounds="13,18,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Title RichText="Title or Heading" Id="7d6cc281-04aa-4b4a-9d66-e397292fb71b" Panel.Bounds="245,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2a73f63c-47fe-4258-a76a-31acfb34f333">
+                            <Add.Item>
+                                <Icon Opacity="1" Id="75b0d849-5c17-4b78-ba00-345667768946" Panel.Bounds="710,42,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
