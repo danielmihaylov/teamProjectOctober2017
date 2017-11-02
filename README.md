@@ -1,19 +1,19 @@
 Live Chat - Teamwork 2
 
-Mariya: 
-• Send messages anonymously under a nickname
-• Join public chat rooms
+Mariya:  <br />
+• Send messages anonymously under a nickname  <br />
+• Join public chat rooms  <br />
 
-Cvetomir: 
-• Customize their profile with a picture and other personal details
-• Reserve a nickname
+Cvetomir:   <br />
+• Customize their profile with a picture and other personal details  <br />
+• Reserve a nickname  <br />
 
-Daniela: 
-• Create and join private chat rooms (with password protection)
-• View the profiles of all users
+Daniela:  <br />
+• Create and join private chat rooms (with password protection)  <br />
+• View the profiles of all users  <br />
 
-Daniel: 
-• Mute or ban users who post inappropriate messages
+Daniel:  <br />
+• Mute or ban users who post inappropriate messages  <br />
 • Join all chat rooms, including password protected ones
 
 
